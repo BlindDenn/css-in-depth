@@ -2,16 +2,29 @@
 <head>
   <style>
 h1 {
-  font-family: serif;
+  color: #2f4f4f;
+  margin-bottom: 10px;
 }
 
-#page-title {
-  font-family: sans-serif;
+#main-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0;
 }
 
-.title {
-  font-family: monospace;
+#main-nav li {
+  display: inline-block;
 }
+
+#main-nav a {
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 5px;
+  color: white;
+  background-color: #13a4a4;
+  border-radius: 5px;
+}
+
   </style>
 </head>
 <body>
@@ -22,7 +35,7 @@ h1 {
         <li><a href="/">Home</a></li>
         <li><a href="/coffees">Coffees</a></li>
         <li><a href="/brewers">Brewers</a></li>
-        <li><a href="/specials" class="featured">Specials</a></li>
+        <li><a href="/specials" class="featured" style="background-color: orange;">Specials</a></li>
       </ul>
     </nav>
   </header>
